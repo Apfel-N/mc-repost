@@ -1,0 +1,123 @@
+{
+  "cgm:recipes/combat/stun_grenade": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/light_stock": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_nugget": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/specialised_grip": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-03-20 23:50:38 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/silencer": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/medium_scope": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-03-20 23:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-20 23:49:48 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/tactical_stock": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/weighted_stock": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_nugget": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/grenade": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-03-20 23:49:49 +0000"
+    },
+    "done": false
+  },
+  "cgm:recipes/combat/short_scope": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/long_scope": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-03-20 23:50:38 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/missile": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/light_grip": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-20 23:50:37 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
