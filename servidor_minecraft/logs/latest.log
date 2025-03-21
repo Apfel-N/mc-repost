@@ -429,3 +429,20 @@
 [21Mar2025 02:54:38.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell out of the world
 [21Mar2025 02:56:44.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Acquire Hardware]
 [21Mar2025 02:58:49.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro has made the advancement [Acquire Hardware]
+[21Mar2025 03:01:04.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
+[21Mar2025 03:01:04.692] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
+[21Mar2025 03:01:04.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
+[21Mar2025 03:01:10.579] [ForkJoinPool.commonPool-worker-9/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
+[21Mar2025 03:01:10.604] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:38655] logged in with entity id 1210 at (-21.73390119367525, -92.26123937462339, 1.0191208302677466)
+[21Mar2025 03:01:10.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
+[21Mar2025 03:01:10.623] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
+[21Mar2025 03:01:13.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
+[21Mar2025 03:01:31.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso didn't want to live in the same world as The Silence
+[21Mar2025 03:01:41.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
+[21Mar2025 03:01:41.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
+[21Mar2025 03:01:41.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
+[21Mar2025 03:01:46.663] [ForkJoinPool.commonPool-worker-9/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
+[21Mar2025 03:01:46.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:56855] logged in with entity id 1252 at (-10.647302416398745, -75.7017373368833, 14.304476944869323)
+[21Mar2025 03:01:46.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
+[21Mar2025 03:01:46.720] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
+[21Mar2025 03:01:49.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
