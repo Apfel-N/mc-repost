@@ -467,3 +467,35 @@
 [21Mar2025 03:18:00.668] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
 [21Mar2025 03:18:03.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
 [21Mar2025 03:18:04.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro has made the advancement [Getting an Upgrade]
+[21Mar2025 03:25:22.945] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso was kicked for floating too long!
+[21Mar2025 03:25:22.993] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso lost connection: Flying is not enabled on this server
+[21Mar2025 03:25:22.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso left the game
+[21Mar2025 03:25:29.204] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aukso[/127.96.206.251:35967] logged in with entity id 2442 at (-6.247967970584218, -84.83982876533938, 7.0883831636276415)
+[21Mar2025 03:25:29.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso joined the game
+[21Mar2025 03:25:29.221] [Server thread/INFO] [Jade/]: Syncing config to Aukso (4cb3e081-96b9-3b39-b867-4fa075a7981a)
+[21Mar2025 03:25:33.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso fell out of the world
+[21Mar2025 03:26:46.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
+[21Mar2025 03:26:46.999] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
+[21Mar2025 03:26:47.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
+[21Mar2025 03:26:57.258] [ForkJoinPool.commonPool-worker-16/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
+[21Mar2025 03:26:57.304] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:37711] logged in with entity id 2588 at (-29.078157258509055, -84.83982876533938, -8.294781313351695)
+[21Mar2025 03:26:57.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
+[21Mar2025 03:26:57.321] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
+[21Mar2025 03:27:01.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro moved too quickly! 0.0,-22.201053039003625,0.0
+[21Mar2025 03:27:01.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
+[21Mar2025 03:27:12.496] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N was kicked for floating too long!
+[21Mar2025 03:27:12.543] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N lost connection: Flying is not enabled on this server
+[21Mar2025 03:27:12.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N left the game
+[21Mar2025 03:27:21.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Best Friends Forever]
+[21Mar2025 03:27:56.750] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:46583] logged in with entity id 2718 at (-12.108970336977068, -83.83982876533938, 4.804074150032022)
+[21Mar2025 03:27:56.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
+[21Mar2025 03:27:56.767] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
+[21Mar2025 03:28:00.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell out of the world
+[21Mar2025 03:29:50.794] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Monster Guard'/2904, l='ServerLevel[OneBlock Reborn]', x=-15.40, y=61.00, z=1.76] died: Monster Guard was slain by Wolf
+[21Mar2025 03:29:52.852] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Monster Guard'/2908, l='ServerLevel[OneBlock Reborn]', x=-19.34, y=61.00, z=0.15] died: Monster Guard was slain by Aukso
+[21Mar2025 03:29:54.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Suit Up]
+[21Mar2025 03:29:57.120] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Stray['Monster Guard'/2901, l='ServerLevel[OneBlock Reborn]', x=-12.70, y=61.00, z=-1.07] died: Monster Guard was slain by Aukso
+[21Mar2025 03:30:02.177] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Stray['Monster Guard'/2911, l='ServerLevel[OneBlock Reborn]', x=0.01, y=61.00, z=4.69] died: Monster Guard was slain by Apfel_N
+[21Mar2025 03:30:08.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N was kicked for floating too long!
+[21Mar2025 03:30:09.049] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N lost connection: Flying is not enabled on this server
+[21Mar2025 03:30:09.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N left the game
