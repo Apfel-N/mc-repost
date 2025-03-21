@@ -2184,3 +2184,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [21Mar2025 00:48:34.734] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [21Mar2025 00:48:34.739] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [21Mar2025 00:52:06.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N was slain by The Silence
+[21Mar2025 00:53:34.730] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Mar2025 00:53:34.735] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Mar2025 00:58:34.733] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21Mar2025 00:58:34.738] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21Mar2025 01:01:27.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Suit Up]
+[21Mar2025 01:01:46.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso died
+[21Mar2025 01:02:25.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Acquire Hardware]
