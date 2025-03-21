@@ -13,6 +13,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:grove": "2025-03-21 03:11:01 +0000",
       "minecraft:windswept_forest": "2025-03-21 02:49:27 +0000",
       "minecraft:meadow": "2025-03-21 02:37:35 +0000",
       "minecraft:plains": "2025-03-21 02:38:15 +0000"

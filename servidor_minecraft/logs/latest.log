@@ -446,3 +446,24 @@
 [21Mar2025 03:01:46.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
 [21Mar2025 03:01:46.720] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
 [21Mar2025 03:01:49.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
+[21Mar2025 03:11:08.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Acquire Hardware]
+[21Mar2025 03:11:16.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Isn't It Iron Pick]
+[21Mar2025 03:11:21.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Isn't It Iron Pick]
+[21Mar2025 03:17:18.448] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N was kicked for floating too long!
+[21Mar2025 03:17:18.494] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N lost connection: Flying is not enabled on this server
+[21Mar2025 03:17:18.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N left the game
+[21Mar2025 03:17:41.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso was slain by The Silence
+[21Mar2025 03:17:50.195] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@75f496ff[id=<null>,name=Apfel_N,properties={},legacy=false] (/127.177.48.237:60987) lost connection: Disconnected
+[21Mar2025 03:17:54.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
+[21Mar2025 03:17:54.445] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
+[21Mar2025 03:17:54.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
+[21Mar2025 03:17:55.002] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:46913] logged in with entity id 2082 at (-28.48086925006856, -105.00554363841728, -3.565057972376706)
+[21Mar2025 03:17:55.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
+[21Mar2025 03:17:55.021] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
+[21Mar2025 03:17:58.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell out of the world
+[21Mar2025 03:18:00.637] [ForkJoinPool.commonPool-worker-12/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
+[21Mar2025 03:18:00.651] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:40411] logged in with entity id 2099 at (-23.416121025251204, -107.05880108414141, -3.836507231815115)
+[21Mar2025 03:18:00.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
+[21Mar2025 03:18:00.668] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
+[21Mar2025 03:18:03.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
+[21Mar2025 03:18:04.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro has made the advancement [Getting an Upgrade]
