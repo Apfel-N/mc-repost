@@ -42,15 +42,39 @@
     },
     "done": true
   },
+  "cgm:recipes/combat/stun_grenade": {
+    "criteria": {
+      "has_gunpowder": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2025-03-21 00:28:07 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2025-03-21 00:38:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-03-21 00:39:37 +0000"
     },
     "done": true
   },
@@ -63,6 +87,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-03-21 00:38:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-03-21 00:39:37 +0000"
     },
     "done": true
   },
@@ -114,6 +144,12 @@
     },
     "done": true
   },
+  "cgm:recipes/combat/advanced_bullet": {
+    "criteria": {
+      "has_gunpowder": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2025-03-21 00:27:33 +0000"
@@ -135,6 +171,12 @@
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2025-03-21 00:26:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-03-21 00:39:40 +0000"
     },
     "done": true
   },
@@ -168,9 +210,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2025-03-21 00:38:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
     },
     "done": true
   },
@@ -186,6 +240,12 @@
     },
     "done": true
   },
+  "cgm:recipes/combat/medium_scope": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/misc/upgrade_base": {
     "criteria": {
       "has_leather": "2025-03-21 00:38:17 +0000"
@@ -195,6 +255,12 @@
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-03-21 00:26:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
     },
     "done": true
   },
@@ -210,9 +276,33 @@
     },
     "done": true
   },
+  "man:feelingwatched": {
+    "criteria": {
+      "feelingwatched_0": "2025-03-21 00:44:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2025-03-21 00:26:20 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-03-21 00:41:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-03-21 00:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-03-21 00:44:59 +0000"
     },
     "done": true
   },
@@ -240,9 +330,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-03-21 00:47:29 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/bazooka": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-03-21 00:27:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-03-21 00:39:22 +0000"
     },
     "done": true
   },
@@ -276,6 +384,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-03-21 00:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2025-03-21 00:26:20 +0000"
@@ -294,6 +414,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-03-21 00:47:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2025-03-21 00:26:30 +0000"
@@ -306,9 +438,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-03-21 00:39:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-03-21 00:39:40 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/grenade": {
+    "criteria": {
+      "has_gunpowder": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-03-21 00:39:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-03-21 00:33:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2025-03-21 00:38:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-03-21 00:39:37 +0000"
     },
     "done": true
   },
@@ -342,6 +510,18 @@
     },
     "done": true
   },
+  "cgm:recipes/combat/short_scope": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/long_scope": {
+    "criteria": {
+      "has_amethyst": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-03-21 00:27:33 +0000"
@@ -354,15 +534,28 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-03-21 00:39:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2025-03-21 00:26:00 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-03-21 00:27:58 +0000"
+      "bread": "2025-03-21 00:27:58 +0000",
+      "rotten_flesh": "2025-03-21 00:42:14 +0000"
     },
     "done": false
   },
@@ -372,9 +565,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2025-03-21 00:38:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-03-21 00:39:22 +0000"
     },
     "done": true
   },
@@ -408,6 +613,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-03-21 00:39:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2025-03-21 00:29:38 +0000"
@@ -417,6 +628,12 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2025-03-21 00:27:33 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/shell": {
+    "criteria": {
+      "has_gunpowder": "2025-03-21 00:39:22 +0000"
     },
     "done": true
   },
@@ -432,6 +649,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-03-21 00:26:20 +0000"
@@ -441,6 +664,12 @@
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2025-03-21 00:38:17 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/combat/missile": {
+    "criteria": {
+      "has_gunpowder": "2025-03-21 00:39:22 +0000"
     },
     "done": true
   },
@@ -462,9 +691,27 @@
     },
     "done": true
   },
+  "cgm:recipes/combat/basic_bullet": {
+    "criteria": {
+      "has_gunpowder": "2025-03-21 00:39:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-03-21 00:39:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2025-03-21 00:38:17 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-03-21 00:41:24 +0000"
     },
     "done": true
   },
