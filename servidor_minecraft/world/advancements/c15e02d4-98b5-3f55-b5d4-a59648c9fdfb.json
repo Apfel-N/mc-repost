@@ -1713,6 +1713,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "pumpkin_stem": "2025-03-21 03:37:44 +0000"
+    },
+    "done": true
+  },
   "cgm:recipes/combat/short_scope": {
     "criteria": {
       "has_redstone": "2025-03-21 03:33:59 +0000"
@@ -1734,6 +1740,18 @@
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_redstone": "2025-03-21 03:33:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-03-21 03:38:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_copper": {
+    "criteria": {
+      "has_raw_copper_block": "2025-03-21 03:44:55 +0000"
     },
     "done": true
   },
