@@ -593,6 +593,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-03-22 04:41:01 +0000",
       "minecraft:spider": "2025-03-21 02:56:51 +0000",
       "minecraft:stray": "2025-03-21 03:13:35 +0000",
       "minecraft:zombie": "2025-03-21 02:52:22 +0000"
@@ -1986,6 +1987,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
     "criteria": {
       "has_azure_bluet": "2025-03-22 04:32:19 +0000"
@@ -2004,15 +2011,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-03-22 04:42:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-03-22 04:42:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
     "criteria": {
       "has_lily_of_the_valley": "2025-03-22 04:32:20 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2025-03-22 04:32:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
     },
     "done": true
   },
@@ -2025,6 +2062,12 @@
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2025-03-22 04:31:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
     },
     "done": true
   },
@@ -2070,6 +2113,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2025-03-22 04:42:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
       "has_amethyst_shard": "2025-03-22 04:36:10 +0000"
@@ -2079,6 +2134,18 @@
   "cgm:recipes/combat/grenade": {
     "criteria": {
       "has_gunpowder": "2025-03-22 04:32:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-03-22 04:42:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
     },
     "done": true
   },
@@ -2106,9 +2173,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2025-03-22 04:28:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
     },
     "done": true
   },
@@ -2121,6 +2200,18 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_pink_dye": "2025-03-22 04:32:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-03-22 04:37:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
     },
     "done": true
   },
@@ -2139,6 +2230,12 @@
   "minecraft:recipes/decorations/dark_oak_fence": {
     "criteria": {
       "has_planks": "2025-03-22 04:28:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-03-22 04:37:44 +0000"
     },
     "done": true
   },

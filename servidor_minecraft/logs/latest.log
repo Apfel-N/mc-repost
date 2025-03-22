@@ -88,3 +88,6 @@
 [22Mar2025 04:28:07.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso joined the game
 [22Mar2025 04:28:07.186] [Server thread/INFO] [Jade/]: Syncing config to Aukso (4cb3e081-96b9-3b39-b867-4fa075a7981a)
 [22Mar2025 04:37:44.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Diamonds!]
+[22Mar2025 04:42:48.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso was slain by Monster Guard
+[22Mar2025 04:42:59.480] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Monster Guard'/698, l='ServerLevel[OneBlock Reborn]', x=-23.92, y=61.00, z=0.61] died: Monster Guard was slain by Apfel_N
+[22Mar2025 04:43:00.381] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Monster Guard'/695, l='ServerLevel[OneBlock Reborn]', x=-24.17, y=61.00, z=0.93] died: Monster Guard was slain by Apfel_N
