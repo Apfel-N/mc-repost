@@ -595,6 +595,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-03-22 04:41:01 +0000",
       "minecraft:spider": "2025-03-21 02:56:51 +0000",
+      "minecraft:creeper": "2025-03-22 04:48:31 +0000",
       "minecraft:stray": "2025-03-21 03:13:35 +0000",
       "minecraft:zombie": "2025-03-21 02:52:22 +0000"
     },
@@ -812,6 +813,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "rotten_flesh": "2025-03-22 04:53:54 +0000",
       "melon_slice": "2025-03-21 02:56:23 +0000",
       "cooked_chicken": "2025-03-22 04:34:11 +0000"
     },

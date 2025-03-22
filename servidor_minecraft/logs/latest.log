@@ -91,3 +91,13 @@
 [22Mar2025 04:42:48.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso was slain by Monster Guard
 [22Mar2025 04:42:59.480] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Monster Guard'/698, l='ServerLevel[OneBlock Reborn]', x=-23.92, y=61.00, z=0.61] died: Monster Guard was slain by Apfel_N
 [22Mar2025 04:43:00.381] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Monster Guard'/695, l='ServerLevel[OneBlock Reborn]', x=-24.17, y=61.00, z=0.93] died: Monster Guard was slain by Apfel_N
+[22Mar2025 04:56:26.960] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4713ms or 94 ticks behind
+[22Mar2025 04:56:31.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N suffocated in a wall
+[22Mar2025 04:56:34.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso suffocated in a wall
+[22Mar2025 04:57:29.650] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N moved too quickly! 16.69999998807907,-2.0,-0.30000001192092896
+[22Mar2025 04:57:48.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso suffocated in a wall
+[22Mar2025 04:57:57.700] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N moved too quickly! 17.69999998807907,-1.2000000476837158,-0.30000001192092896
+[22Mar2025 04:58:25.252] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N moved too quickly! 15.475365748311546,-9.743135959782194,3.702923425607892
+[22Mar2025 04:58:50.737] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso moved too quickly! 10.458177765564345,0.9315684531670883,-1.2493178258992113
+[22Mar2025 05:00:23.524] [Server thread/WARN] [cgm/]: literal{Aukso}(4cb3e081-96b9-3b39-b867-4fa075a7981a) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 87
+[22Mar2025 05:00:58.769] [Server thread/WARN] [cgm/]: literal{Aukso}(4cb3e081-96b9-3b39-b867-4fa075a7981a) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
