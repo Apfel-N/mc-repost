@@ -9,16 +9,16 @@
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "close-history.gl.joinmc.link",
-          "assigned_srv": "close-history.gl.joinmc.link",
+          "assigned_domain": "gas-vault.gl.joinmc.link",
+          "assigned_srv": "gas-vault.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "6c22e4cb-7c03-4adf-918f-e04f4abf3d68",
+          "id": "ca5c75b0-7590-469c-960e-9a3878d47ddf",
           "ip_hostname": "27.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 5155,
-          "port_start": 5154,
+          "port_end": 4609,
+          "port_start": 4608,
           "region": "global",
           "static_ip4": "147.185.221.27",
           "static_ip6": "2602:fbaf:0:1::1b",
@@ -26,17 +26,17 @@
         },
         "status": "allocated"
       },
-      "created_at": "2025-03-20T03:34:41.915042Z",
+      "created_at": "2025-03-20T16:58:15.565741Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "7c8711d6-48d6-4bbc-a5b3-962b9f2583a8",
+      "id": "36cc992c-f742-414d-b4d3-337629e5b0c8",
       "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "3b5315d0-f183-490c-9950-346cb9e8fb4e",
-          "agent_name": "from-key-4423",
+          "agent_id": "e0333e83-cc64-402e-a3ce-feebbae8b7f6",
+          "agent_name": "from-key-162a",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },

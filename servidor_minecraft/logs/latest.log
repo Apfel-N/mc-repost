@@ -1,529 +1,89 @@
-[21Mar2025 02:30:10.170] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[21Mar2025 02:30:10.173] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[21Mar2025 02:30:10.731] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[21Mar2025 02:30:10.791] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mc-repost/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[21Mar2025 02:30:11.027] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-repost/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[21Mar2025 02:30:11.029] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-repost/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Mar2025 02:30:11.031] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-repost/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Mar2025 02:30:11.032] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-repost/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21Mar2025 02:30:11.238] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[21Mar2025 02:30:12.880] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[21Mar2025 02:30:12.922] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[21Mar2025 02:30:12.982] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[21Mar2025 02:30:13.068] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 73 options available, 0 override(s) found
-[21Mar2025 02:30:13.214] [main/WARN] [mixin/]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
-[21Mar2025 02:30:13.216] [main/WARN] [mixin/]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
-[21Mar2025 02:30:14.183] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21Mar2025 02:30:14.254] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinEntity::handler$zbg000$move exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[21Mar2025 02:30:20.841] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[21Mar2025 02:30:20.887] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[21Mar2025 02:30:20.888] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[21Mar2025 02:30:21.010] [modloading-worker-0/INFO] [croissantnova.sanitydim.SanityMod/]: Applying dimension config example.toml
-[21Mar2025 02:30:21.683] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
-[21Mar2025 02:30:21.754] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
-[21Mar2025 02:30:21.754] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
-[21Mar2025 02:30:21.754] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
-[21Mar2025 02:30:21.761] [main/INFO] [journeymap/]: Initializing Packet Registries
-[21Mar2025 02:30:21.852] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[21Mar2025 02:30:21.874] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[21Mar2025 02:30:21.879] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[21Mar2025 02:30:21.919] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[21Mar2025 02:30:22.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.4.18 Target: null
-[21Mar2025 02:30:22.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[21Mar2025 02:30:22.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[21Mar2025 02:30:22.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[21Mar2025 02:30:22.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[21Mar2025 02:30:22.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[21Mar2025 02:30:22.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[21Mar2025 02:30:22.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[21Mar2025 02:30:23.527] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21Mar2025 02:30:23.592] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mc-repost/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23149!/assets/.mcassetsroot' uses unexpected schema
-[21Mar2025 02:30:23.592] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mc-repost/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23149!/data/.mcassetsroot' uses unexpected schema
-[21Mar2025 02:30:23.612] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinServerPlayerGameMode::handler$zbk000$destroyBlock exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[21Mar2025 02:30:23.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
-[21Mar2025 02:30:23.927] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Starting version check at https://raw.githubusercontent.com/croissantnova/SanityDescentIntoMadness/main/update.json
-[21Mar2025 02:30:23.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Found status: UP_TO_DATE Current: 1.1.0 Target: null
-[21Mar2025 02:30:25.302] [main/INFO] [croissantnova.sanitydim.SanityMod/]: Registering sanity command...
-[21Mar2025 02:30:26.543] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[21Mar2025 02:30:26.631] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1405 advancements
-[21Mar2025 02:30:27.480] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[21Mar2025 02:30:27.481] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[21Mar2025 02:30:27.481] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[21Mar2025 02:30:27.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[21Mar2025 02:30:27.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[21Mar2025 02:30:27.702] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[21Mar2025 02:30:27.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21Mar2025 02:30:27.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[21Mar2025 02:30:27.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21Mar2025 02:30:27.783] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[21Mar2025 02:30:27.796] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/inventorysorter-server.toml is not correct. Correcting
-[21Mar2025 02:30:27.797] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklists was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.798] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklists.containerBlacklist was corrected from null to its default, []. 
-[21Mar2025 02:30:27.798] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklists.slotBlacklist was corrected from null to its default, []. 
-[21Mar2025 02:30:27.800] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
-[21Mar2025 02:30:27.801] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.801] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[21Mar2025 02:30:27.802] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[21Mar2025 02:30:27.802] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[21Mar2025 02:30:27.803] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cgm-server.toml is not correct. Correcting
-[21Mar2025 02:30:27.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.alphaOverlay was corrected from null to its default, 255. 
-[21Mar2025 02:30:27.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.alphaFadeThreshold was corrected from null to its default, 40. 
-[21Mar2025 02:30:27.805] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.soundPercentage was corrected from null to its default, 0.05. 
-[21Mar2025 02:30:27.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.soundFadeThreshold was corrected from null to its default, 90. 
-[21Mar2025 02:30:27.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.grenade.ringVolume was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.806] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio.gunShotMaxDistance was corrected from null to its default, 100.0. 
-[21Mar2025 02:30:27.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.audio.reloadMaxDistance was corrected from null to its default, 24.0. 
-[21Mar2025 02:30:27.807] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.enableCameraRecoil was corrected from null to its default, true. 
-[21Mar2025 02:30:27.808] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.cooldownThreshold was corrected from null to its default, 0. 
-[21Mar2025 02:30:27.808] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.experimental was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.808] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.experimental.forceDyeableAttachments was corrected from null to its default, false. 
-[21Mar2025 02:30:27.809] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
-[21Mar2025 02:30:27.810] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.810] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
-[21Mar2025 02:30:27.811] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
-[21Mar2025 02:30:27.812] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[21Mar2025 02:30:27.812] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[21Mar2025 02:30:27.813] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[21Mar2025 02:30:27.813] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/sophisticatedbackpacks-server.toml is not correct. Correcting
-[21Mar2025 02:30:27.814] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.814] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
-[21Mar2025 02:30:27.815] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
-[21Mar2025 02:30:27.815] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
-[21Mar2025 02:30:27.815] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
-[21Mar2025 02:30:27.816] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.816] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
-[21Mar2025 02:30:27.816] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
-[21Mar2025 02:30:27.817] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.817] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
-[21Mar2025 02:30:27.817] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
-[21Mar2025 02:30:27.818] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.818] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
-[21Mar2025 02:30:27.819] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
-[21Mar2025 02:30:27.820] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.821] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
-[21Mar2025 02:30:27.822] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.823] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.823] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
-[21Mar2025 02:30:27.824] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
-[21Mar2025 02:30:27.824] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.825] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
-[21Mar2025 02:30:27.825] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
-[21Mar2025 02:30:27.825] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.826] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
-[21Mar2025 02:30:27.826] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.827] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.827] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.828] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.828] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.828] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
-[21Mar2025 02:30:27.828] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.829] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.829] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.829] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.830] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.830] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
-[21Mar2025 02:30:27.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.831] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.832] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.832] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.833] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
-[21Mar2025 02:30:27.833] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.834] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.835] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.835] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.835] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
-[21Mar2025 02:30:27.836] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.836] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.836] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.836] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.837] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.837] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
-[21Mar2025 02:30:27.838] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.838] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
-[21Mar2025 02:30:27.838] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.839] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.839] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.840] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.840] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
-[21Mar2025 02:30:27.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.841] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
-[21Mar2025 02:30:27.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.842] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
-[21Mar2025 02:30:27.843] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.843] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.843] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.843] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
-[21Mar2025 02:30:27.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.844] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
-[21Mar2025 02:30:27.845] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.845] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.845] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.845] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
-[21Mar2025 02:30:27.846] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.846] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
-[21Mar2025 02:30:27.846] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.847] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.848] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[21Mar2025 02:30:27.849] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.850] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.850] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.853] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.853] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.853] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.853] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[21Mar2025 02:30:27.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.854] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
-[21Mar2025 02:30:27.855] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.856] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.856] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.856] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.856] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
-[21Mar2025 02:30:27.857] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
-[21Mar2025 02:30:27.857] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.857] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
-[21Mar2025 02:30:27.860] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.861] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
-[21Mar2025 02:30:27.862] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.863] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
-[21Mar2025 02:30:27.864] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
-[21Mar2025 02:30:27.864] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
-[21Mar2025 02:30:27.865] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.866] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.866] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
-[21Mar2025 02:30:27.867] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.867] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.868] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
-[21Mar2025 02:30:27.868] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
-[21Mar2025 02:30:27.869] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.869] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.numberOfSlots was corrected from null to its default, 12. 
-[21Mar2025 02:30:27.869] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advancedJukeboxUpgrade.slotsInRow was corrected from null to its default, 4. 
-[21Mar2025 02:30:27.870] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.870] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
-[21Mar2025 02:30:27.870] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
-[21Mar2025 02:30:27.870] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
-[21Mar2025 02:30:27.871] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
-[21Mar2025 02:30:27.871] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
-[21Mar2025 02:30:27.872] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
-[21Mar2025 02:30:27.872] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
-[21Mar2025 02:30:27.873] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
-[21Mar2025 02:30:27.873] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
-[21Mar2025 02:30:27.874] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
-[21Mar2025 02:30:27.874] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
-[21Mar2025 02:30:27.875] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.875] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
-[21Mar2025 02:30:27.875] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.876] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.876] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
-[21Mar2025 02:30:27.876] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [jukebox_upgrades|1, stack_upgrades|3, furnace_upgrades|1]. 
-[21Mar2025 02:30:27.877] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
-[21Mar2025 02:30:27.877] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
-[21Mar2025 02:30:27.877] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
-[21Mar2025 02:30:27.877] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
-[21Mar2025 02:30:27.877] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
-[21Mar2025 02:30:27.885] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cave_dweller-server.toml is not correct. Correcting
-[21Mar2025 02:30:27.886] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.886] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.887] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_min was corrected from null to its default, 300. 
-[21Mar2025 02:30:27.887] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_max was corrected from null to its default, 600. 
-[21Mar2025 02:30:27.887] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown_chance was corrected from null to its default, 0.4. 
-[21Mar2025 02:30:27.887] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown was corrected from null to its default, 1200. 
-[21Mar2025 02:30:27.888] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.888] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_min was corrected from null to its default, 240. 
-[21Mar2025 02:30:27.888] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_max was corrected from null to its default, 360. 
-[21Mar2025 02:30:27.889] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.889] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave was corrected from null to its default, 300. 
-[21Mar2025 02:30:27.889] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave_chase was corrected from null to its default, 30. 
-[21Mar2025 02:30:27.890] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.surface_timer_multiplier was corrected from null to its default, 1.0. 
-[21Mar2025 02:30:27.890] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.891] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_chance_per_tick was corrected from null to its default, 0.005. 
-[21Mar2025 02:30:27.891] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_height was corrected from null to its default, 40. 
-[21Mar2025 02:30:27.891] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.allow_surface_spawn was corrected from null to its default, false. 
-[21Mar2025 02:30:27.891] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.sky_light_level was corrected from null to its default, 8. 
-[21Mar2025 02:30:27.891] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.block_light_level was corrected from null to its default, 15. 
-[21Mar2025 02:30:27.892] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.maximum_amount was corrected from null to its default, 5. 
-[21Mar2025 02:30:27.892] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_distance was corrected from null to its default, 16. 
-[21Mar2025 02:30:27.892] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.check_path_to_spawn was corrected from null to its default, true. 
-[21Mar2025 02:30:27.892] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.893] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions.dimension_whitelist was corrected from null to its default, [minecraft:overworld]. 
-[21Mar2025 02:30:27.893] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.893] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.override_biome_datapack_config was corrected from null to its default, false. 
-[21Mar2025 02:30:27.893] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes_is_whitelist was corrected from null to its default, true. 
-[21Mar2025 02:30:27.893] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes was corrected from null to its default, []. 
-[21Mar2025 02:30:27.894] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.895] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.spotting_range was corrected from null to its default, 60. 
-[21Mar2025 02:30:27.895] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_climb was corrected from null to its default, true. 
-[21Mar2025 02:30:27.895] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_break_door was corrected from null to its default, true. 
-[21Mar2025 02:30:27.895] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.break_door_time was corrected from null to its default, 3. 
-[21Mar2025 02:30:27.896] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.allow_riding was corrected from null to its default, false. 
-[21Mar2025 02:30:27.896] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.target_invisible was corrected from null to its default, true. 
-[21Mar2025 02:30:27.897] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.897] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.maximum_health was corrected from null to its default, 60.0. 
-[21Mar2025 02:30:27.897] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_damage was corrected from null to its default, 6.0. 
-[21Mar2025 02:30:27.897] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_speed was corrected from null to its default, 0.35. 
-[21Mar2025 02:30:27.898] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.movement_speed was corrected from null to its default, 0.5. 
-[21Mar2025 02:30:27.898] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.depth_strider_bonus was corrected from null to its default, 1.5. 
-[21Mar2025 02:30:27.900] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[21Mar2025 02:30:27.900] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/corpse-server.toml is not correct. Correcting
-[21Mar2025 02:30:27.901] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.901] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.901] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.only_owner was corrected from null to its default, false. 
-[21Mar2025 02:30:27.902] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.skeleton was corrected from null to its default, false. 
-[21Mar2025 02:30:27.902] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.902] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.time was corrected from null to its default, 600. 
-[21Mar2025 02:30:27.903] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.force_time was corrected from null to its default, -1. 
-[21Mar2025 02:30:27.903] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.skeleton_time was corrected from null to its default, 72000. 
-[21Mar2025 02:30:27.903] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lie_on_face was corrected from null to its default, false. 
-[21Mar2025 02:30:27.903] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[21Mar2025 02:30:27.904] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.show_equipment was corrected from null to its default, true. 
-[21Mar2025 02:30:27.904] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.fall_into_void was corrected from null to its default, false. 
-[21Mar2025 02:30:27.904] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lava_damage was corrected from null to its default, false. 
-[21Mar2025 02:30:27.905] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key death_storage_duration was corrected from null to its default, -1. 
-[21Mar2025 02:30:27.907] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[21Mar2025 02:30:27.908] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[21Mar2025 02:30:27.908] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[21Mar2025 02:30:27.908] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[21Mar2025 02:30:27.909] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[21Mar2025 02:30:27.909] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[21Mar2025 02:30:27.909] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[21Mar2025 02:30:27.909] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[21Mar2025 02:30:27.910] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[21Mar2025 02:30:27.937] [Server thread/INFO] [Framework/]: Loading server configs...
-[21Mar2025 02:30:27.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[21Mar2025 02:30:30.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[21Mar2025 02:30:33.251] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 02:30:33.252] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 02:30:33.253] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 02:30:33.254] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 02:30:33.254] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 02:30:33.353] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21Mar2025 02:30:33.853] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[21Mar2025 02:30:34.216] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3364 ms
-[21Mar2025 02:30:34.217] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.422s)! For help, type "help"
-[21Mar2025 02:30:34.245] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[21Mar2025 02:30:49.648] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:37207] logged in with entity id 1 at (0.5, 61.0, 0.5)
-[21Mar2025 02:30:49.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
-[21Mar2025 02:30:49.776] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
-[21Mar2025 02:33:27.244] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N was kicked for floating too long!
-[21Mar2025 02:33:27.292] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N lost connection: Flying is not enabled on this server
-[21Mar2025 02:33:27.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N left the game
-[21Mar2025 02:34:03.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[21Mar2025 02:34:03.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kil<--[HERE]
-[21Mar2025 02:34:03.594] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5ebc5ec0[id=<null>,name=Apfel_N,properties={},legacy=false] (/127.177.48.237:57599) lost connection: Disconnected
-[21Mar2025 02:34:16.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No entity was found
-[21Mar2025 02:35:13.509] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[21Mar2025 02:35:13.547] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:41315] logged in with entity id 25 at (1.5, 61.0, 0.5)
-[21Mar2025 02:35:13.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 02:35:13.585] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 02:35:14.091] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Disconnected
-[21Mar2025 02:35:14.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 02:35:14.753] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:43741] logged in with entity id 27 at (-0.23750001192092896, -124.34219533608511, 0.5951179614086164)
-[21Mar2025 02:35:14.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
-[21Mar2025 02:35:14.785] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
-[21Mar2025 02:35:18.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell out of the world
-[21Mar2025 02:35:26.561] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[21Mar2025 02:35:26.599] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:47649] logged in with entity id 35 at (0.5, 61.3, 0.5)
-[21Mar2025 02:35:26.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 02:35:26.627] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 02:35:26.895] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Disconnected
-[21Mar2025 02:35:26.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 02:35:35.780] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[21Mar2025 02:35:35.800] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:42215] logged in with entity id 37 at (0.5, 61.3, 0.5)
-[21Mar2025 02:35:35.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 02:35:35.825] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 02:35:36.297] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Disconnected
-[21Mar2025 02:35:36.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 02:35:46.098] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aukso[/127.96.206.251:50483] logged in with entity id 40 at (-0.5, 61.0, -0.5)
-[21Mar2025 02:35:46.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso joined the game
-[21Mar2025 02:35:46.121] [Server thread/INFO] [Jade/]: Syncing config to Aukso (4cb3e081-96b9-3b39-b867-4fa075a7981a)
-[21Mar2025 02:35:52.233] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin: not found
-[21Mar2025 02:35:52.256] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:41589] logged in with entity id 42 at (0.5, 61.3, 0.5)
-[21Mar2025 02:35:52.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 02:35:52.280] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 02:35:52.551] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Disconnected
-[21Mar2025 02:35:52.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 02:36:08.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso lost connection: Disconnected
-[21Mar2025 02:36:08.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso left the game
-[21Mar2025 02:36:08.393] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[21Mar2025 02:36:14.246] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aukso[/127.96.206.251:43081] logged in with entity id 44 at (0.5, 61.3, 0.5)
-[21Mar2025 02:36:14.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso joined the game
-[21Mar2025 02:36:14.267] [Server thread/INFO] [Jade/]: Syncing config to Aukso (4cb3e081-96b9-3b39-b867-4fa075a7981a)
-[21Mar2025 02:36:20.148] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 02:36:20.156] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:49287] logged in with entity id 45 at (0.5, 61.3, 0.5)
-[21Mar2025 02:36:20.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 02:36:20.176] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 02:36:20.449] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Disconnected
-[21Mar2025 02:36:20.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 02:36:23.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has reached the goal [Feeling Watched]
-[21Mar2025 02:36:31.781] [ForkJoinPool.commonPool-worker-3/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 02:36:31.799] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:51901] logged in with entity id 48 at (0.5, 61.3, 0.5)
-[21Mar2025 02:36:31.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 02:36:31.818] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 02:36:32.105] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Disconnected
-[21Mar2025 02:36:32.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 02:37:34.842] [ForkJoinPool.commonPool-worker-5/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 02:37:34.850] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:48905] logged in with entity id 84 at (0.5, 61.599999999999994, 0.5)
-[21Mar2025 02:37:34.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 02:37:34.868] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 02:38:17.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
-[21Mar2025 02:38:17.848] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
-[21Mar2025 02:38:17.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 02:38:22.556] [ForkJoinPool.commonPool-worker-5/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 02:38:22.602] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:53169] logged in with entity id 94 at (-5.193764384777917, -88.74486834171051, 2.855384354100521)
-[21Mar2025 02:38:22.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 02:38:22.620] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 02:38:27.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
-[21Mar2025 02:38:37.846] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso was kicked for floating too long!
-[21Mar2025 02:38:37.893] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso lost connection: Flying is not enabled on this server
-[21Mar2025 02:38:37.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso left the game
-[21Mar2025 02:38:44.149] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aukso[/127.96.206.251:48315] logged in with entity id 106 at (-1.9379257676563104, -93.21523569018026, -1.1036825894722895)
-[21Mar2025 02:38:44.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso joined the game
-[21Mar2025 02:38:44.166] [Server thread/INFO] [Jade/]: Syncing config to Aukso (4cb3e081-96b9-3b39-b867-4fa075a7981a)
-[21Mar2025 02:38:48.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso fell out of the world
-[21Mar2025 02:39:49.897] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has reached the goal [Feeling Watched]
-[21Mar2025 02:47:57.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro has reached the goal [Feeling Watched]
-[21Mar2025 02:48:35.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro has made the advancement [A Seedy Place]
-[21Mar2025 02:49:31.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Stone Age]
-[21Mar2025 02:49:55.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Getting an Upgrade]
-[21Mar2025 02:49:57.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Stone Age]
-[21Mar2025 02:50:55.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro has made the advancement [Stone Age]
-[21Mar2025 02:51:53.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Getting an Upgrade]
-[21Mar2025 02:52:16.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Jerky?]
-[21Mar2025 02:52:16.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Jerky?]
-[21Mar2025 02:52:22.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Monster Hunter]
-[21Mar2025 02:52:24.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Monster Hunter]
-[21Mar2025 02:53:54.096] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N was kicked for floating too long!
-[21Mar2025 02:53:54.142] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N lost connection: Flying is not enabled on this server
-[21Mar2025 02:53:54.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N left the game
-[21Mar2025 02:54:20.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[21Mar2025 02:54:20.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 2<--[HERE]
-[21Mar2025 02:54:30.645] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@59fe1ea2[id=<null>,name=Apfel_N,properties={},legacy=false] (/127.177.48.237:57587) lost connection: Disconnected
-[21Mar2025 02:54:34.857] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:38005] logged in with entity id 847 at (-2.5110731885504003, -101.83340857907594, 4.8665368066998225)
-[21Mar2025 02:54:34.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
-[21Mar2025 02:54:34.875] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
-[21Mar2025 02:54:38.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell out of the world
-[21Mar2025 02:56:44.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Acquire Hardware]
-[21Mar2025 02:58:49.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro has made the advancement [Acquire Hardware]
-[21Mar2025 03:01:04.644] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
-[21Mar2025 03:01:04.692] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
-[21Mar2025 03:01:04.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 03:01:10.579] [ForkJoinPool.commonPool-worker-9/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 03:01:10.604] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:38655] logged in with entity id 1210 at (-21.73390119367525, -92.26123937462339, 1.0191208302677466)
-[21Mar2025 03:01:10.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 03:01:10.623] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 03:01:13.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
-[21Mar2025 03:01:31.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso didn't want to live in the same world as The Silence
-[21Mar2025 03:01:41.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
-[21Mar2025 03:01:41.748] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
-[21Mar2025 03:01:41.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 03:01:46.663] [ForkJoinPool.commonPool-worker-9/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 03:01:46.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:56855] logged in with entity id 1252 at (-10.647302416398745, -75.7017373368833, 14.304476944869323)
-[21Mar2025 03:01:46.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 03:01:46.720] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 03:01:49.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
-[21Mar2025 03:11:08.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Acquire Hardware]
-[21Mar2025 03:11:16.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Isn't It Iron Pick]
-[21Mar2025 03:11:21.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Isn't It Iron Pick]
-[21Mar2025 03:17:18.448] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N was kicked for floating too long!
-[21Mar2025 03:17:18.494] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N lost connection: Flying is not enabled on this server
-[21Mar2025 03:17:18.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N left the game
-[21Mar2025 03:17:41.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso was slain by The Silence
-[21Mar2025 03:17:50.195] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@75f496ff[id=<null>,name=Apfel_N,properties={},legacy=false] (/127.177.48.237:60987) lost connection: Disconnected
-[21Mar2025 03:17:54.399] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
-[21Mar2025 03:17:54.445] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
-[21Mar2025 03:17:54.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 03:17:55.002] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:46913] logged in with entity id 2082 at (-28.48086925006856, -105.00554363841728, -3.565057972376706)
-[21Mar2025 03:17:55.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
-[21Mar2025 03:17:55.021] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
-[21Mar2025 03:17:58.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell out of the world
-[21Mar2025 03:18:00.637] [ForkJoinPool.commonPool-worker-12/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 03:18:00.651] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:40411] logged in with entity id 2099 at (-23.416121025251204, -107.05880108414141, -3.836507231815115)
-[21Mar2025 03:18:00.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 03:18:00.668] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 03:18:03.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
-[21Mar2025 03:18:04.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro has made the advancement [Getting an Upgrade]
-[21Mar2025 03:25:22.945] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso was kicked for floating too long!
-[21Mar2025 03:25:22.993] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso lost connection: Flying is not enabled on this server
-[21Mar2025 03:25:22.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso left the game
-[21Mar2025 03:25:29.204] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aukso[/127.96.206.251:35967] logged in with entity id 2442 at (-6.247967970584218, -84.83982876533938, 7.0883831636276415)
-[21Mar2025 03:25:29.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso joined the game
-[21Mar2025 03:25:29.221] [Server thread/INFO] [Jade/]: Syncing config to Aukso (4cb3e081-96b9-3b39-b867-4fa075a7981a)
-[21Mar2025 03:25:33.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso fell out of the world
-[21Mar2025 03:26:46.950] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
-[21Mar2025 03:26:46.999] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
-[21Mar2025 03:26:47.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 03:26:57.258] [ForkJoinPool.commonPool-worker-16/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 03:26:57.304] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:37711] logged in with entity id 2588 at (-29.078157258509055, -84.83982876533938, -8.294781313351695)
-[21Mar2025 03:26:57.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 03:26:57.321] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 03:27:01.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro moved too quickly! 0.0,-22.201053039003625,0.0
-[21Mar2025 03:27:01.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
-[21Mar2025 03:27:12.496] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N was kicked for floating too long!
-[21Mar2025 03:27:12.543] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N lost connection: Flying is not enabled on this server
-[21Mar2025 03:27:12.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N left the game
-[21Mar2025 03:27:21.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Best Friends Forever]
-[21Mar2025 03:27:56.750] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:46583] logged in with entity id 2718 at (-12.108970336977068, -83.83982876533938, 4.804074150032022)
-[21Mar2025 03:27:56.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
-[21Mar2025 03:27:56.767] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
-[21Mar2025 03:28:00.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell out of the world
-[21Mar2025 03:29:50.794] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Monster Guard'/2904, l='ServerLevel[OneBlock Reborn]', x=-15.40, y=61.00, z=1.76] died: Monster Guard was slain by Wolf
-[21Mar2025 03:29:52.852] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Monster Guard'/2908, l='ServerLevel[OneBlock Reborn]', x=-19.34, y=61.00, z=0.15] died: Monster Guard was slain by Aukso
-[21Mar2025 03:29:54.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso has made the advancement [Suit Up]
-[21Mar2025 03:29:57.120] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Stray['Monster Guard'/2901, l='ServerLevel[OneBlock Reborn]', x=-12.70, y=61.00, z=-1.07] died: Monster Guard was slain by Aukso
-[21Mar2025 03:30:02.177] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Stray['Monster Guard'/2911, l='ServerLevel[OneBlock Reborn]', x=0.01, y=61.00, z=4.69] died: Monster Guard was slain by Apfel_N
-[21Mar2025 03:30:08.997] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N was kicked for floating too long!
-[21Mar2025 03:30:09.049] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Apfel_N lost connection: Flying is not enabled on this server
-[21Mar2025 03:30:09.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N left the game
-[21Mar2025 03:31:17.052] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2cebd101[id=<null>,name=Apfel_N,properties={},legacy=false] (/127.177.48.237:39877) lost connection: Disconnected
-[21Mar2025 03:31:31.502] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
-[21Mar2025 03:31:31.561] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
-[21Mar2025 03:31:31.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 03:31:36.568] [ForkJoinPool.commonPool-worker-19/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 03:31:36.604] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:46337] logged in with entity id 3064 at (-8.610611282110423, -84.83982876533938, 10.136369920856396)
-[21Mar2025 03:31:36.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 03:31:36.622] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 03:31:39.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
-[21Mar2025 03:31:49.197] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@16028416[id=<null>,name=Apfel_N,properties={},legacy=false] (/127.177.48.237:51319) lost connection: Disconnected
-[21Mar2025 03:31:54.954] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:55187] logged in with entity id 3155 at (-0.9513353022157864, -127.61295510028846, 0.7492239187099992)
-[21Mar2025 03:31:54.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
-[21Mar2025 03:31:54.972] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
-[21Mar2025 03:31:56.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell from a high place
-[21Mar2025 03:33:07.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Best Friends Forever]
-[21Mar2025 03:33:35.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [The Parrots and the Bats]
-[21Mar2025 03:36:02.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso was slain by Apfel_N
-[21Mar2025 03:37:44.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [A Seedy Place]
-[21Mar2025 03:39:05.448] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro was kicked for floating too long!
-[21Mar2025 03:39:05.495] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Barushelperro lost connection: Flying is not enabled on this server
-[21Mar2025 03:39:05.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro left the game
-[21Mar2025 03:39:13.748] [ForkJoinPool.commonPool-worker-22/WARN] [SkinRestorer/]: Failed to fetch skin: no profile with uuid f07d3b9a-c3b8-33d7-8a8b-87e24db2e0bb
-[21Mar2025 03:39:13.802] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Barushelperro[/127.173.249.46:52759] logged in with entity id 3594 at (-9.75654233947326, -100.95840857907594, 5.806849431290441)
-[21Mar2025 03:39:13.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro joined the game
-[21Mar2025 03:39:13.818] [Server thread/INFO] [Jade/]: Syncing config to Barushelperro (75170da1-98e5-34c6-975b-f7f76f476781)
-[21Mar2025 03:39:16.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Barushelperro fell out of the world
-[21Mar2025 03:43:13.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso was slain by Rotting Stalker
-[21Mar2025 03:43:27.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N was slain by Aukso
+[22Mar2025 04:22:01.148] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[22Mar2025 04:22:01.156] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[22Mar2025 04:22:03.459] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22Mar2025 04:22:03.523] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mc-repost/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[22Mar2025 04:22:03.787] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-repost/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[22Mar2025 04:22:03.788] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-repost/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Mar2025 04:22:03.789] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-repost/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Mar2025 04:22:03.790] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-repost/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Mar2025 04:22:04.029] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[22Mar2025 04:22:05.752] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Mar2025 04:22:05.792] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[22Mar2025 04:22:05.849] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Mar2025 04:22:05.943] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 73 options available, 0 override(s) found
+[22Mar2025 04:22:06.064] [main/WARN] [mixin/]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
+[22Mar2025 04:22:06.064] [main/WARN] [mixin/]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
+[22Mar2025 04:22:07.061] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22Mar2025 04:22:07.159] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinEntity::handler$zbg000$move exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[22Mar2025 04:22:13.346] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[22Mar2025 04:22:13.397] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[22Mar2025 04:22:13.398] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[22Mar2025 04:22:13.499] [modloading-worker-0/INFO] [croissantnova.sanitydim.SanityMod/]: Applying dimension config example.toml
+[22Mar2025 04:22:14.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[22Mar2025 04:22:14.337] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[22Mar2025 04:22:14.337] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[22Mar2025 04:22:14.337] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[22Mar2025 04:22:14.344] [main/INFO] [journeymap/]: Initializing Packet Registries
+[22Mar2025 04:22:14.478] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[22Mar2025 04:22:14.502] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[22Mar2025 04:22:14.508] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[22Mar2025 04:22:14.510] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[22Mar2025 04:22:14.550] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.4.18 Target: null
+[22Mar2025 04:22:14.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[22Mar2025 04:22:14.826] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[22Mar2025 04:22:14.826] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[22Mar2025 04:22:15.041] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[22Mar2025 04:22:15.042] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Mar2025 04:22:15.359] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[22Mar2025 04:22:15.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[22Mar2025 04:22:15.849] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Mar2025 04:22:16.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[22Mar2025 04:22:16.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Starting version check at https://raw.githubusercontent.com/croissantnova/SanityDescentIntoMadness/main/update.json
+[22Mar2025 04:22:16.119] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Found status: UP_TO_DATE Current: 1.1.0 Target: null
+[22Mar2025 04:22:16.737] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mc-repost/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23149!/assets/.mcassetsroot' uses unexpected schema
+[22Mar2025 04:22:16.738] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mc-repost/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23149!/data/.mcassetsroot' uses unexpected schema
+[22Mar2025 04:22:16.761] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinServerPlayerGameMode::handler$zbk000$destroyBlock exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[22Mar2025 04:22:18.885] [main/INFO] [croissantnova.sanitydim.SanityMod/]: Registering sanity command...
+[22Mar2025 04:22:19.848] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[22Mar2025 04:22:19.946] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1405 advancements
+[22Mar2025 04:22:20.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[22Mar2025 04:22:20.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Mar2025 04:22:20.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Mar2025 04:22:20.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Mar2025 04:22:20.908] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Mar2025 04:22:20.952] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Mar2025 04:22:21.087] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Mar2025 04:22:21.088] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Mar2025 04:22:21.088] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Mar2025 04:22:21.088] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Mar2025 04:22:21.105] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Mar2025 04:22:21.106] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Mar2025 04:22:21.120] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[22Mar2025 04:22:21.137] [Server thread/INFO] [Framework/]: Loading server configs...
+[22Mar2025 04:22:21.150] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Mar2025 04:22:22.097] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[22Mar2025 04:22:24.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Mar2025 04:22:26.109] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Mar2025 04:22:26.115] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Mar2025 04:22:26.121] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Mar2025 04:22:26.123] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Mar2025 04:22:26.126] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Mar2025 04:22:26.509] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[22Mar2025 04:22:27.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[22Mar2025 04:22:27.123] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3115 ms
+[22Mar2025 04:22:27.123] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.023s)! For help, type "help"
+[22Mar2025 04:22:27.154] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Mar2025 04:23:09.227] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Apfel_N[/127.177.48.237:56843] logged in with entity id 23 at (-18.25420033179472, 61.0, -0.28071577909827344)
+[22Mar2025 04:23:09.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N joined the game
+[22Mar2025 04:23:09.350] [Server thread/INFO] [Jade/]: Syncing config to Apfel_N (c15e02d4-98b5-3f55-b5d4-a59648c9fdfb)
+[22Mar2025 04:23:35.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N was slain by Zombie
+[22Mar2025 04:23:58.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N fell out of the world
+[22Mar2025 04:24:53.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apfel_N has made the advancement [Diamonds!]
+[22Mar2025 04:27:39.820] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aukso[/127.96.206.251:58439] logged in with entity id 49 at (-11.298520649953684, 61.0, 0.9910476941970606)
+[22Mar2025 04:27:39.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso joined the game
+[22Mar2025 04:27:39.844] [Server thread/INFO] [Jade/]: Syncing config to Aukso (4cb3e081-96b9-3b39-b867-4fa075a7981a)
+[22Mar2025 04:28:01.600] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Aukso lost connection: Disconnected
+[22Mar2025 04:28:01.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso left the game
+[22Mar2025 04:28:07.164] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Aukso[/127.96.206.251:57325] logged in with entity id 50 at (-11.298520649953684, 61.0, 0.9910476941970606)
+[22Mar2025 04:28:07.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Aukso joined the game
+[22Mar2025 04:28:07.186] [Server thread/INFO] [Jade/]: Syncing config to Aukso (4cb3e081-96b9-3b39-b867-4fa075a7981a)
