@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "4b25683a-e9cc-4c86-ae7d-386c1c627b28",
+    "name": "Apfel_N",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c15e02d4-98b5-3f55-b5d4-a59648c9fdfb",
+    "name": "Apfel_N",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
