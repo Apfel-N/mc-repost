@@ -76,3 +76,5 @@ java.lang.NullPointerException: Cannot invoke "java.awt.image.BufferedImage.getW
 [23:09:44] [Server thread/INFO]: Aukso has made the advancement [Getting an Upgrade]
 [23:12:51] [Server thread/INFO]: [Apfel_N: Set own game mode to Spectator Mode]
 [23:12:53] [Server thread/INFO]: [Apfel_N: Set own game mode to Survival Mode]
+[23:33:46] [Server thread/WARN]: Apfel_N moved too quickly! 0.0,-17.16486636642057,-0.10997677692288121
+[23:33:47] [Server thread/INFO]: Apfel_N fell out of the world
