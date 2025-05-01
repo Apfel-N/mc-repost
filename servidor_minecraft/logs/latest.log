@@ -56,3 +56,23 @@ java.lang.NullPointerException: Cannot invoke "java.awt.image.BufferedImage.getW
 [22:50:57] [Server thread/INFO]: Apfel_N has made the advancement [Stone Age]
 [22:54:31] [Server thread/INFO]: Barushelperro has made the advancement [Getting an Upgrade]
 [22:56:37] [Server thread/INFO]: Apfel_N has made the advancement [Getting an Upgrade]
+[23:05:04] [Server thread/INFO]: Aukso[/127.179.39.253:55551] logged in with entity id 296 at (8.5, -51.0, -9.5)
+[23:05:04] [Server thread/INFO]: Aukso joined the game
+[23:05:11] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=0, y=0, z=0} jd{x=8, y=-50, z=-5}
+[23:05:11] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=0, y=0, z=0} jd{x=8, y=-50, z=-5}
+[23:05:11] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=0, y=0, z=0} jd{x=8, y=-50, z=-5}
+[23:05:12] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=0, y=0, z=0} jd{x=8, y=-50, z=-5}
+[23:05:21] [Server thread/INFO]: Aukso fell out of the world
+[23:05:34] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=0, y=0, z=0} jd{x=8, y=-50, z=-5}
+[23:05:51] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=0, y=0, z=0} jd{x=8, y=-50, z=-5}
+[23:05:58] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=0, y=0, z=0} jd{x=8, y=-50, z=-5}
+[23:05:59] [Server thread/INFO]: [Apfel_N: Made Aukso a server operator]
+[23:06:04] [Server thread/INFO]: Aukso fell out of the world
+[23:06:08] [Server thread/INFO]: Aukso has made the advancement [Stone Age]
+[23:06:12] [Server thread/INFO]: [Aukso: Set own game mode to Creative Mode]
+[23:06:20] [Server thread/INFO]: Aukso was killed
+[23:06:20] [Server thread/INFO]: [Apfel_N: Killed Aukso]
+[23:06:29] [Server thread/INFO]: [Aukso: Set own game mode to Survival Mode]
+[23:09:44] [Server thread/INFO]: Aukso has made the advancement [Getting an Upgrade]
+[23:12:51] [Server thread/INFO]: [Apfel_N: Set own game mode to Spectator Mode]
+[23:12:53] [Server thread/INFO]: [Apfel_N: Set own game mode to Survival Mode]
