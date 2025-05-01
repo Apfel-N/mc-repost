@@ -80,3 +80,6 @@ java.lang.NullPointerException: Cannot invoke "java.awt.image.BufferedImage.getW
 [23:33:47] [Server thread/INFO]: Apfel_N fell out of the world
 [23:40:07] [Server thread/INFO]: Aukso fell from a high place
 [23:40:48] [Server thread/INFO]: Apfel_N fell from a high place
+[23:46:31] [Server thread/INFO]: [Apfel_N: The difficulty has been set to Hard]
+[23:47:21] [Server thread/INFO]: Aukso fell out of the world
+[23:54:40] [Server thread/INFO]: Apfel_N fell out of the world
